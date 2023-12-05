@@ -1,0 +1,52 @@
+Basic Commands:
+
+Use echo to print the message "Hello, World!" to the terminal. ("Salam, Dünya!" mesajını çap etmək üçün əks-sədadan istifadə edin. terminala.)
+
+Find out the current user using whoami. (whoami istifadə edərək cari istifadəçini tapın.)
+
+List the contents of the current directory using ls. (ls istifadə edərək cari kataloqun məzmununu sadalayın.)
+
+Change to the root directory using cd. (CD-dən istifadə edərək kök qovluğuna keçin.)
+
+Display the contents of a file named "example.txt" using cat. (cat istifadə edərək "example.txt" adlı faylın məzmununu göstərin.)
+
+Print the current working directory using pwd. (pwd istifadə edərək cari iş qovluğunu çap edin.)
+
+Use find to locate all files with a ".txt" extension in the current directory. (Cari kataloqda ".txt" uzantısı olan bütün faylları tapmaq üçün tapmaqdan istifadə edin.)
+
+Count the number of lines in the "example.txt" file using wc. (wc istifadə edərək "example.txt" faylında sətirlərin sayını sayın.)
+
+Search for the word "important" in the "notes.txt" file using grep. (grep istifadə edərək "notes.txt" faylında "vacib" sözünü axtarın.)
+
+Operators:
+Run the ls command in the background using &. (& istifadə edərək arxa planda ls əmrini işlədin.)
+
+Execute pwd && ls to display the current directory and its contents if the previous command succeeds. (Əvvəlki əmr uğurlu olarsa, cari kataloqu və onun məzmununu göstərmək üçün pwd && ls əmrini yerinə yetirin.)
+
+Redirect the output of the ls command to a file named "directory_contents.txt" using >. (ls əmrinin çıxışını > istifadə edərək "directory_contents.txt" adlı fayla yönləndirin.)
+
+Append the output of the ls command to the "directory_contents.txt" file using >>. (ls əmrinin çıxışını >> istifadə edərək "directory_contents.txt" faylına əlavə edin.)
+
+File and Directory Manipulation:
+Create an empty file named "newfile.txt" using touch. (touch istifadə edərək "newfile.txt" adlı boş fayl yaradın.)
+
+Create a new directory named "my_directory" using mkdir. (mkdir istifadə edərək "my_directory" adlı yeni qovluq yaradın.)
+
+Copy the "example.txt" file to a new file named "example_copy.txt" using cp. (cp istifadə edərək "example.txt" faylını "example_copy.txt" adlı yeni fayla kopyalayın.)
+
+Move the "example_copy.txt" file to the "my_directory" directory using mv. (mv istifadə edərək "example_copy.txt" faylını "my_directory" qovluğuna köçürün.)
+
+Remove the "example_copy.txt" file using rm. (rm istifadə edərək "example_copy.txt" faylını silin.)
+
+Identify the type of the "example.txt" file using file. (Fayldan istifadə edərək "example.txt" faylının növünü müəyyənləşdirin.)
+
+Advanced Commands:
+Switch to superuser mode using su. (su istifadə edərək super istifadəçi rejiminə keçin.)
+
+Use grep to find all occurrences of the word "error" in log files within a specific directory. (Müəyyən bir kataloq daxilində log fayllarında "xəta" sözünün bütün baş vermələrini tapmaq üçün grep-dən istifadə edin.)
+
+Create three nested directories named "level1/level2/level3" with a single command. (Bir əmrlə "level1/level2/level3" adlı üç iç-içə qovluq yaradın.)
+
+Copy the entire "my_directory" and its contents to a new location. (Bütün "my_directory" və onun məzmununu yeni yerə kopyalayın.)
+
+Remove the "my_directory" and its contents recursively using rm. (rm istifadə edərək, "my_directory" və onun məzmununu rekursiv şəkildə silin.)
